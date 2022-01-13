@@ -21,7 +21,7 @@ header {
 }
 .header-logo {
     display: block;
-    background-image: url(/images/logo.svg);
+    background-image: url(../images/logo.svg);
     width: 176px;
     height: 56px;
     background-repeat: no-repeat;
@@ -88,7 +88,7 @@ header {
 .bg {
     text-align: center;
     color: #dedede;
-    background: url(/images/bg.jpg) no-repeat center;
+    background: url(../images/bg.jpg) no-repeat center;
     padding: 142px 0;
     background-position: center center;
     margin-bottom: 140px;
@@ -141,7 +141,7 @@ header {
     margin: 0 auto;
 }
 .banner-box {
-    background-image: url(/images/burger-bg.jpg);
+    background-image: url(../images/burger-bg.jpg);
     background-repeat: no-repeat;
     padding: 100px 100px;
     display: flex;
