@@ -143,22 +143,18 @@ header {
 .banner-box {
     background-image: url(../images/burger-bg.jpg);
     background-repeat: no-repeat;
-    padding: 100px 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    background-size: cover;
+    background-position: center center;
+    padding: 100px 100px 120px;
+    margin-bottom: 100px;
 
 }
 .banner-title {
     font-weight: 900;
     font-size: 60px;
     color:#FFFFFF;
-    line-height: 1.4;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
     margin-top: 0;
-    margin-bottom: 4px;
+    margin-bottom: 12px;
 }
 .banner-title span{
     font-family: 'Open Sans', sans-serif;
@@ -169,15 +165,19 @@ header {
     background-color:#F37335;
     border-radius: 14px;
     text-align: center;
-    padding: 5px 19px;
+    padding: 5px 0;
+    display: block;
+    max-width: 96px;
+    margin-bottom: 9px;
 }
 .banner-text {
     color: #faf9f9;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     max-width: 353px;
-    line-height: 24px;
+    line-height: 1.6;
     margin-top: 0;
+    margin-bottom: 35px;
 }
 .banner-link {
     color: #1E2F40;
@@ -188,4 +188,51 @@ header {
     background: #FBB731;
     padding: 20px 25px;
     border-radius: 5px;
+}
+.menu-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu-title {
+    font-size: 44px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #1B2A49;
+    margin: 0;
+}
+.menu-select {
+    border: 1px solid #DEDEDE;
+    padding: 13px 30px;
+    border-radius: 20px;
+    font-size: 15px;
+    color: #443737;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    appearance: none;
+    flex-basis: 279px;
+    background-image: url(../images/arrow.svg);
+    background-size: 12.79 7.75;
+    background-repeat: no-repeat;
+    background-position: 89% center;
+}
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.menu-grid-cover {
+    width: 100%;
+    height: 430px;
+    position: relative;
+    overflow: hidden;
+}
+.menu-grid-cover img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    width: 100%;
+    height: 430px;
 }
