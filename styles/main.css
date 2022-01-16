@@ -220,6 +220,10 @@ header {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+    margin-top: 36px;
+}
+.menu-grid-item {
+    text-align: center;
 }
 .menu-grid-cover {
     width: 100%;
@@ -235,4 +239,31 @@ header {
     object-fit: cover;
     width: 100%;
     height: 430px;
+}
+.menu-grid-title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 38px;
+    color: #1B2A49;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.menu-grid-price {
+    font-size: 20px;
+    line-height: 28px;
+    color: #979797;
+    font-weight: 700;
+    margin-top: 5px;
+}
+.menu-grid-btn {
+    background-color: #FBB731;
+    border-radius: 5px;
+    max-width: 152px;
+    border: none;
+    padding: 10px 30px;
+}
+.menu-grid-icon {
+    position: absolute;
+    background-size: 30px 30px;
+    background-image: url(../images/menu-btn-cart.svg);
 }
