@@ -677,6 +677,9 @@ header {
     .menu-additional {
         margin-top: 55px;;
     }
+    .menu-other {
+        height: 410px;;
+    }
     .menu-other .menu-grid-item {
         flex: 0 0 140px;
     }
@@ -688,10 +691,17 @@ header {
         gap: 22px 5px;
         padding-bottom: 74px;
     }
-
-
+    /* footer responsive */
+    .footer {
+        margin-top: 53px;
+        padding-top: 60px;
+    }
     .footer-box {
         flex-direction: column;
+    }
+    .footer-item h2{
+        margin-top: 31px;
+        font-size: 18px;
     }
     .footer-tel-mob {
         display: none;
@@ -699,8 +709,12 @@ header {
     .footer-list + .footer-list-tel {
         display: none;
     }
+    .footer-list {
+        margin-bottom: 10px;
+    }
     .footer-item .footer-tel {
         display: block;
+        font-size: 20px;
     }
     .footer-item-logo {
         display: flex;
