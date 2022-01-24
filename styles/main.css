@@ -6,7 +6,7 @@ body {
     max-width: 1180px;
     margin: 0 auto;
     padding-right: 15px;
-    padding-right: 15px;
+    padding-left: 15px;
 }
 header {
     border-bottom: 1px solid #dedede
@@ -519,6 +519,9 @@ header {
     .footer-list + .footer-list-tel {
         display: none;
     }
+    .footer-item .footer-tel {
+        display: none;
+    }
 }
 @media (min-width: 766px) {
     .header-burger {
@@ -617,6 +620,94 @@ header {
         width: 116px;
         height: 37px;
         background-size: contain;
+    }
+    .header  {
+        padding-bottom: 18px;
+    }
+    .bg {
+        margin-bottom: 35px;
+    }
+    .title {
+        margin-top: 28px;
+        margin-bottom: 14px;
+    }
+    .description {
+        width: 277px;
+    }
+    .banner .container {
+        padding: 0;
+    }
+    .banner-box {
+        margin-bottom: 57px;
+        padding-left: 14px;
+    }
+    .menu-title {
+        font-size: 27px;
+    }
+    .menu-select {
+        font-size: 12px;
+        padding: 8px 15px;
+        flex-basis: 0;
+    }
+    .menu-grid {
+        margin-top: 35px;
+        gap: 22px 12px;
+    }
+    .menu-grid-cover, .menu-grid-cover img {
+        height: 180px;
+    }
+    .menu-grid-title {
+        font-size: 13px;
+        line-height: 20px;
+        margin-top: 8px;
+    }
+    .menu-grid-btn {
+        padding: 10px 21px;
+    }
+    .menu-grid-price {
+        font-size: 16px;
+        line-height: 28px;
+        margin-top: 0;
+        margin-bottom: 7px;
+    }
+    .menu-grid-text {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .menu-additional {
+        margin-top: 55px;;
+    }
+    .menu-other .menu-grid-item {
+        flex: 0 0 140px;
+    }
+    .menu-other .menu-grid-cover, 
+    .menu-other .menu-grid-cover img {
+        height: 180px;
+    }
+    .menu-other .menu-grid {
+        gap: 22px 5px;
+        padding-bottom: 74px;
+    }
+
+
+    .footer {
+        
+    }
+    .footer-box {
+        flex-direction: column;
+    }
+    .footer-tel-mob {
+        display: none;
+    }
+    .footer-list + .footer-list-tel {
+        display: none;
+    }
+    .footer-item .footer-tel {
+        display: block;
+    }
+    .footer-item-logo {
+        display: flex;
+        justify-content: space-between
     }
 }
 @media (max-width: 320px) {
