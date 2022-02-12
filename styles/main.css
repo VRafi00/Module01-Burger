@@ -608,9 +608,6 @@ header {
     .menu {
         padding-top: 5px;
     }
-    .menu-additional {
-        margin-top: 87px;
-    }
     .menu-other {
         overflow: hidden;
         height: 645px
@@ -620,7 +617,7 @@ header {
         width: auto;
         overflow-x: scroll;
         overflow-y: hidden;
-        padding-bottom: 50px;
+        padding-bottom: 200px;
     }
     .menu-other .menu-grid-item {
         flex: 0 0 272px;
@@ -656,6 +653,30 @@ header {
 @media (max-width: 650px) {
     .footer-box {
         flex-direction: column;
+    }
+    .footer {
+        margin-top: 47px;
+    }
+    .footer-item h2{
+        margin-top: 31px;
+        font-size: 18px;
+    }
+    .footer-tel-mob {
+        display: none;
+    }
+    .footer-list + .footer-list-tel {
+        display: none;
+    }
+    .footer-list {
+        margin-bottom: 10px;
+    }
+    .footer-item .footer-tel {
+        display: block;
+        font-size: 20px;
+    }
+    .footer-item-logo {
+        display: flex;
+        justify-content: space-between
     }
 }
 @media (max-width: 567px) {
@@ -701,28 +722,43 @@ header {
         gap: 25px 15px;
     }
     .menu-grid-cover {
-        height: 56vw;
-        margin-bottom: 10px;
+        height: 53vw;
     }
     .menu-grid-cover img {
         height: 100%;
     }
+    .menu-other {
+        margin-top: 40px;
+        height: 480px;
+    }
+    .menu-other .menu-grid-cover {
+        height: 280px;
+    }
+    .menu-other .menu-grid-cover img {
+        height: 100%;
+    }
+    .menu-additional {
+        margin-top: 0;
+    }
     .menu-other .menu-grid-item {
-        flex: 0 0 160px;
+        flex: 0 0 180px;
     }
     .menu-grid-title {
         font-size: 15px;
+        margin: 0;
+        margin-top: 10px;
+        line-height: 125%;
     }
     .menu-grid-price {
         font-size: 16px;
-        margin-top: 6px;
-        margin-bottom: 14px;
+        margin: 0;
+        margin-bottom: 8px;
     }
     .menu-grid-btn {
         padding: 10px 32px;
     }
     .footer {
-        margin-top: 66px;
+        margin-top: 40px;
     }
 }
 @media (max-width: 360px) {
@@ -792,7 +828,6 @@ header {
         line-height: 18px;
     }
     .menu-additional {
-        margin-top: 50px;
         margin-bottom: 36px;
     }
     .menu-other {
@@ -809,7 +844,11 @@ header {
         gap: 22px 5px;
         padding-bottom: 74px;
     }
+    .footer {
+        margin-top: 0;
+    }
     /* footer responsive */
+    /*
     .footer {
         margin-top: 47px;
     }
@@ -833,7 +872,7 @@ header {
     .footer-item-logo {
         display: flex;
         justify-content: space-between
-    }
+    }*/
 }
 @media (max-width: 320px) {
     .banner-box {
