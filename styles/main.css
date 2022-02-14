@@ -678,6 +678,12 @@ header {
         display: flex;
         justify-content: space-between
     }
+    .menu-grid-cover {
+        height: 53vw;
+    }
+    .menu-grid-cover img {
+        height: 100%;
+    }
 }
 @media (max-width: 567px) {
     .title {
@@ -721,18 +727,12 @@ header {
     .menu-grid {
         gap: 25px 15px;
     }
-    .menu-grid-cover {
-        height: 53vw;
-    }
-    .menu-grid-cover img {
-        height: 100%;
-    }
     .menu-other {
         margin-top: 40px;
         height: 480px;
     }
     .menu-other .menu-grid-cover {
-        height: 280px;
+        max-height: 200px;
     }
     .menu-other .menu-grid-cover img {
         height: 100%;
@@ -758,7 +758,7 @@ header {
         padding: 10px 32px;
     }
     .footer {
-        margin-top: 40px;
+        margin-top: 0;
     }
 }
 @media (max-width: 360px) {
