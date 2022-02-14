@@ -483,6 +483,11 @@ header {
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 700;
+    border: 1px solid #FBB731;
+}
+.content-link:hover, .promo a:hover {
+    background-color: transparent;
+    color: #FBB731;
 }
 .visual {
     flex-grow: 1;
@@ -755,7 +760,7 @@ header {
         margin-bottom: 8px;
     }
     .menu-grid-btn {
-        padding: 10px 32px;
+        padding: 10px 30px;
     }
     .footer {
         margin-top: 0;
@@ -815,7 +820,7 @@ header {
         margin-top: 8px;
     }
     .menu-grid-btn {
-        padding: 10px 21px;
+        padding: 10px 15px;
     }
     .menu-grid-price {
         font-size: 16px;
